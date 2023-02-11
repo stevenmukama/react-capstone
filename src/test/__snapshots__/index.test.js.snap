@@ -16,7 +16,7 @@ exports[`App matches snapshot 1`] = `
       />
     </a>
     <p>
-      Crypto World
+      Crypto Metrics
     </p>
     <div
       className="menu"
