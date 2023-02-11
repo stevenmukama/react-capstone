@@ -65,7 +65,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://metrics--silly-panda-eeb68a.netlify.app/)
-- [Loom Video]()
+- [Loom Video](https://www.loom.com/share/6a8acaff11d74174bcff233f0e79c42c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
