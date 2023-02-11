@@ -15,9 +15,9 @@ const Home = () => {
     dispatch(fetchCoinsAction());
   }, [dispatch]);
 
-  const filteredCoins = coins.filter((coin) =>
-    coin.name.toLowerCase().includes(search.toLowerCase()),
-  );
+    const filteredCoins = coins.filter(
+     (coin) => coin.name.toLowerCase().includes(search.toLowerCase()),
+   );
 
   return (
     <>
