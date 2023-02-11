@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://63e7a3d0fb18ad38995c4b4c--silly-panda-eeb68a.netlify.app/)
 - [Loom Video]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
