@@ -15,8 +15,8 @@ const Home = () => {
     dispatch(fetchCoinsAction());
   }, [dispatch]);
 
-  const filteredCoins = coins.filter((coin) =>
-    coin.name.toLowerCase().includes(search.toLowerCase()),
+  const filteredCoins = coins.filter(
+    (coin) => coin.name.toLowerCase().includes(search.toLowerCase()),
   );
 
   return (
@@ -40,7 +40,8 @@ const Home = () => {
             className="coin-link"
             to={`/details/${coin.id}`}
             key={coin.id}
-            element={<Details />}>
+            element={<Details />}
+          >
             <Coin
               id={coin.id}
               name={coin.name}
