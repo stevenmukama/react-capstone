@@ -36,12 +36,12 @@ const Home = () => {
       </div>
       <div className="coin-container">
         {filteredCoins.map((coin) => (
-         <Link
-            className="coin-link"
-            to={`/details/${coin.id}`}
-            key={coin.id}
-            element={<Details />}
-          >
+           <Link
+              className="coin-link"
+              to={`/details/${coin.id}`}
+              key={coin.id}
+              element={<Details />}
+            >
             <Coin
               id={coin.id}
               name={coin.name}
