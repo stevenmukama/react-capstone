@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  background: #fd5294;
+  background: hsl(337, 98%, 66%);
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
@@ -37,7 +37,7 @@ h3 {
 }
 
 .coin-det:nth-child(even) {
-  background: #d1447a;
+  background: hsl(337, 61%, 54%);
 }
 
 .coin-det h3:nth-child(2) {
