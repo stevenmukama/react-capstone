@@ -37,18 +37,18 @@ const Home = () => {
       <div className="coin-container">
         {filteredCoins.map((coin) => (
           <Link
-             className="coin-link"
-             to={`/details/${coin.id}`}
-             key={coin.id}
-             element={<Details />}
-            >
-           <Coin
-             id={coin.id}
-             name={coin.name}
-             image={coin.image}
-             price={coin.current_price}
+            className="coin-link"
+            to={`/details/${coin.id}`}
+            key={coin.id}
+            element={<Details />}
+          >
+            <Coin
+              id={coin.id}
+              name={coin.name}
+              image={coin.image}
+              price={coin.current_price}
             />
-           </Link>
+          </Link>
         ))}
       </div>
     </>
