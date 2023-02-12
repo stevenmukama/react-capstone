@@ -7,7 +7,7 @@ const Navbar = () => (
       <i className="fa-solid fa-chevron-left" />
     </Link>
 
-    <p>Crypto World</p>
+    <p>Crypto Metrics</p>
     <div className="menu">
       <i className="fa-solid fa-microphone" />
       <i className="fa-solid fa-gear" />

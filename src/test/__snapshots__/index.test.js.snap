@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="navbar"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <i
+        className="fa-solid fa-chevron-left"
+      />
+    </a>
+    <p>
+      Crypto Metrics
+    </p>
+    <div
+      className="menu"
+    >
+      <i
+        className="fa-solid fa-microphone"
+      />
+      <i
+        className="fa-solid fa-gear"
+      />
+    </div>
+  </div>
+  <div
+    className="search-bar"
+  >
+    <input
+      className="search"
+      onChange={[Function]}
+      placeholder="Search for Cryptocurrency"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="headerSlider"
+  >
+    <img
+      alt="crypto"
+      className="main-logo"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cryptocurrency_Logo.svg/633px-Cryptocurrency_Logo.svg.png"
+    />
+    <div
+      className="active-crypto"
+    >
+      <h4>
+        ACTIVE
+      </h4>
+      <p>
+         
+        currencies
+      </p>
+    </div>
+  </div>
+  <div
+    className="cointop"
+  >
+    <p>
+      Cryptocurrencies
+    </p>
+  </div>
+  <div
+    className="coin-container"
+  />
+</div>
+`;

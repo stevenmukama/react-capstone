@@ -39,7 +39,7 @@ p {
 }
 
 .navbar {
-  background: hsl(336, 81%, 61%);
+  background: #ec4c8b;
   height: 3rem;
   display: flex;
   align-items: center;
@@ -120,13 +120,22 @@ p {
   text-align: center;
 }
 
+.coin {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  padding-left: 43px;
+}
+
+.coin h3 {
+  font-size: 1.3rem;
+}
+
 @media only screen and (min-width: 768px) {
   .coin-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  .coin img {
-    width: 8rem;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .menu {
@@ -149,10 +158,6 @@ p {
 
   .main-logo {
     width: 20%;
-  }
-
-  .coin h3 {
-    font-size: 1.5rem;
   }
 
   .coin p {
