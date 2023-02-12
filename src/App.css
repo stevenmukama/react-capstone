@@ -135,7 +135,7 @@ p {
 
 @media only screen and (min-width: 768px) {
   .coin-container {
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .menu {
