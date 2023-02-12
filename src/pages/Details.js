@@ -47,6 +47,7 @@ const Details = () => {
           <div className="coin-det" key={label}>
             <h3>{label}</h3>
             <h3>{value}</h3>
+            <i className="fa-sharp fa-solid fa-arrow-right" />
           </div>
         ))}
       </div>
